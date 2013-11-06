@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">XDA-Developers ADK</string>
+	<string name="Title">XDA LED Control</string>
+	
+	<string name="no_device">Please connect a XDA-Developers board.</string>
+    <string name="LED1Label">LED</string>
+	<string name="off">Off</string>
+	<string name="on">On</string>
+	<string name="inop">___</string>
+	<string name="random_on">Random_On</string>
+	<string name="random_off">Random Off</string>
+</resources>

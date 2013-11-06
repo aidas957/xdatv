@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/servoLED"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="26.99" >
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue LEDs " />
+
+        <TableRow
+            android:id="@+id/Title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/ledRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="26.99"
+            android:baselineAligned="false"
+            android:clipChildren="false"
+            android:clipToPadding="false" >
+
+            <include
+                android:id="@+id/LED1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <CheckedTextView
+                android:id="@+id/CheckedTextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White LEDs" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/ledROW2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="26.99"
+            android:baselineAligned="false"
+            android:clipChildren="false"
+            android:clipToPadding="false" >
+
+            <include
+                android:id="@+id/LED9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_buttonblank" />
+
+            <include
+                android:id="@+id/LED11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_button" />
+
+            <include
+                android:id="@+id/LED15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_buttonblank" />
+
+            <include
+                android:id="@+id/LED16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/led_buttonblank" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="26.99" >
+    </TableRow>
+
+</LinearLayout>

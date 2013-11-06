@@ -1,0 +1,9 @@
+To use Android ADK2011 DemoKit with Arduino 1.0:
+Install Arduino 1.0
+replace the Arduino "libraries" folder with the "libraries" folder provided in this folder
+Use Android Demokit https://dl-ssl.google.com/android/adk/adk_release_20120606.zip
+
+Tested under Linux 64 bit.
+
+note: to use Android Application, you must use the "google apis" and remove the holo reference to tablet. 
+
