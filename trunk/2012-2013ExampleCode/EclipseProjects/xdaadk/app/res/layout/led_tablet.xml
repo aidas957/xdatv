@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	<LinearLayout
+        android:id="@+id/LEDs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:padding="-10dip" >
+	<include android:id="@+id/LED1" layout="@layout/led_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<include android:id="@+id/LED2" layout="@layout/led_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<include android:id="@+id/LED3" layout="@layout/led_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<include android:id="@+id/LED4" layout="@layout/led_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout
+        android:id="@+id/LEDs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:padding="-10dip" >
+
+        <include
+            android:id="@+id/LED5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/led_button" />
+
+        <include
+            android:id="@+id/LED6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/led_button" />
+
+        <include
+            android:id="@+id/LED7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/led_button" />
+
+        <include
+            android:id="@+id/LED8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/led_button" />
+    </LinearLayout>
+
+	 <LinearLayout
+	     android:id="@+id/LEDs3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="90"
+	     android:gravity="top"
+	     android:orientation="horizontal"
+	     android:padding="-10dip" >
+
+	     <include
+	         android:id="@+id/LED9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+
+	     <include
+	         android:id="@+id/LED10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+
+	     <include
+	         android:id="@+id/LED11"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+
+	     <include
+	         android:id="@+id/LED12"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+	 </LinearLayout>
+
+	 <LinearLayout
+	     android:id="@+id/LEDs4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="90"
+	     android:gravity="top"
+	     android:orientation="horizontal"
+	     android:padding="-10dip" >
+
+	     <include
+	         android:id="@+id/LED13"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+
+	     <include
+	         android:id="@+id/LED14"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+
+	     <include
+	         android:id="@+id/LED15"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+
+	     <include
+	         android:id="@+id/LED16"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         layout="@layout/led_button" />
+	 </LinearLayout>
+</LinearLayout>
+
